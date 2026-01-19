@@ -1,5 +1,5 @@
 name = "erynd"
-project = "erynd-site"
+project = "erynd"
 type = "javascript"
 
 [build]
