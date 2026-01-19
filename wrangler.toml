@@ -1,0 +1,4 @@
+name = "erynd-site"
+type = "webpack"
+account_id = "d8c797475ec1dacb68ac2a5c5732566d"
+workers_dev = false
