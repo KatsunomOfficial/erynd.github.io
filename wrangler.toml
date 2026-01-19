@@ -1,4 +1,10 @@
 name = "erynd-site"
-type = "webpack"
+type = "javascript"
 account_id = "d8c797475ec1dacb68ac2a5c5732566d"
 workers_dev = false
+
+[build]
+  command = "npm run build"
+  upload = { format = "service-worker" }
+
+pages_build_output_dir = "public"
