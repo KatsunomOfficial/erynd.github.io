@@ -36,6 +36,6 @@ const updateDivs = document.querySelectorAll(".update");
 updateDivs.forEach(update => {
   update.addEventListener("click", () => {
     const updateId = update.getAttribute("data-update-id");
-    window.open(`updates/${updateId}.html`, "_self");
+    window.open(`updates/${updateId}.html`, "_blank");
   });
 });
