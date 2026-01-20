@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katsyr Studios Wiki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="logo">
+      <div class="logo-title">Katsyr Studios Wiki</div>
+      <div class="logo-subtitle">Your source for everything Erynd</div>
+    </div>
+
+    <nav class="nav">
+      <a href="#">Main Page</a>
+      <a href="#">Projects</a>
+      <a href="#">Updates</a>
+      <a href="#">Contribute</a>
+    </nav>
+
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search pages..." />
+      <div id="results" class="results"></div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="page">
+    <aside class="sidebar">
+      <h3>Pages</h3>
+      <a href="#" class="page-link">Main Page</a>
+      <a href="#" class="page-link">Erynd</a>
+      <a href="#" class="page-link">Updates</a>
+      <a href="#" class="page-link">Contributing</a>
+      <a href="#" class="page-link">About</a>
+
+      <!-- Recent Updates Widget -->
+      <div class="updates-widget">
+        <h3>Recent Updates</h3>
+        <div class="update" data-update-id="update01">
+          <div class="update-title">Test Text</div>
+          <div class="update-date">Test Date</div>
+        </div>
+
+        <div class="update" data-update-id="update01">
+          <div class="update-title">Test Text</div>
+          <div class="update-date">Test Date</div>
+        </div>
+
+        <div class="update" data-update-id="update01">
+          <div class="update-title">Test Text</div>
+          <div class="update-date">Test Date</div>
+        </div>
+      </div>
+    </aside>
+
+    <article class="content">
+
+      <!-- Hero Card -->
+      <section class="card hero">
+        <div class="hero-text">
+          <h1>Katsyr Studios</h1>
+          <p>
+            <strong>Katsyr Studios</strong> is the home of Erynd, an upcoming MMORPG roguelike on Roblox.
+            Built from scratch by a solo developer, the game focuses on exploration, progression, and high-stakes combat.
+          </p>
+        </div>
+        <div class="hero-badges">
+          <span class="badge">MMORPG</span>
+          <span class="badge">Roguelike</span>
+          <span class="badge">Roblox</span>
+        </div>
+      </section>
+
+      <!-- Overview + Projects -->
+      <section class="card">
+        <h2>Overview</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+          Sed euismod, nisl vel tincidunt luctus, nunc urna facilisis nunc, at convallis erat libero nec erat.
+          Vivamus non dui vitae urna efficitur fermentum.
+        </p>
+
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Erynd —</strong> A dark fantasy MMORPG roguelike on Roblox</li>
+        </ul>
+      </section>
+
+      <!-- Contributing -->
+      <section class="card">
+        <h2>Contributing</h2>
+        <p>
+          Katsyr Studios welcomes contributions such as modeling, animation, back-end scripting, and testing.
+          Contribution guidelines will be documented on dedicated pages.
+        </p>
+      </section>
+
+      <!-- Updates + Slideshow -->
+      <section class="card">
+        <h2>Updates</h2>
+        <div class="updates-grid">
+          <div class="update" data-update-id="update01">
+            <h3>Test Update</h3>
+            <p>Testing Test...</p>
+          </div>
+          <div class="update" data-update-id="update01">
+            <h3>Test Update</h3>
+            <p>Testing Test...</p>
+          </div>
+          <div class="update" data-update-id="update01">
+            <h3>Test Update</h3>
+            <p>Testing Test...</p>
+          </div>
+        </div>
+
+        <!-- Slideshow -->
+        <div class="slideshow">
+          <img src="https://i.ibb.co/xcqHfD3/image.png" alt="Erynd screenshot">
+          <img src="https://i.ibb.co/xcqHfD3/image.png" alt="Erynd screenshot">
+          <img src="https://i.ibb.co/xcqHfD3/image.png" alt="Erynd screenshot">
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <script src="search.js"></script>
+</body>
+</html>
